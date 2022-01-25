@@ -31,6 +31,7 @@ h1{
 }
 section{
     height: 500px;
+    margin-bottom: 100px;
 }
 
 .link-button{
@@ -39,4 +40,49 @@ section{
     color: cornsilk;
     padding: 10px 20px;
     border-radius: 10px;
+
+}
+p{
+    color: dimgray;
+}
+.back{
+
+    background-image: url("image/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 60%;
+    background-color: white;
+}
+.Bottom{
+    background-image: url("image/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+#full_stack{
+
+    border-left: 7px solid;
+    border-image: linear-gradient(lightsalmon,tomato);
+    border-image-slice: 1;
+
+}
+#baby-web{
+    
+
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,lightsalmon);
+    border-image-slice: 1;
+
+
+}
+
+footer p{
+    text-align: center;
 }
